@@ -55,7 +55,7 @@ public class Main {
 
         for (int i = 0; i <= arrayOne.length - 1; i ++) {
             if (arrayOne[i] % 2 != 0) {
-               arrayOne[i] ++;
+               arrayOne[i] += 1;
             }
              //System.out.println(Arrays.toString(arrayOne));
            }
