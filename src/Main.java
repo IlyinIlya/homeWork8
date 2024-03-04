@@ -53,13 +53,13 @@ public class Main {
         //Важно: код должен работать с любым целочисленным массивом, поэтому для решения
         // задания используйте циклы.
 
-        for (int i = 0; i < arrayOne.length; i ++) {
-            while (arrayOne[i] % 2 != 0) {
-                arrayOne[i] += 1;
+        for (int i = 0; i <= arrayOne.length - 1; i ++) {
+            if (arrayOne[i] % 2 != 0) {
+               arrayOne[i] ++;
             }
-           if (i == arrayOne.length - 1) {
-               System.out.println(Arrays.toString(arrayOne));
+             //System.out.println(Arrays.toString(arrayOne));
            }
-        }
+        System.out.println(Arrays.toString(arrayOne));
+
         }
     }
